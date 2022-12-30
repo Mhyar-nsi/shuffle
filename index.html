@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuffle JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+    <div class="container flex-center">
+        <div class="left flex-center">
+            <div class="left-content flex-center">
+
+                <div class="input">
+                    <textarea id="textarea" cols="30" rows="1" placeholder="Type here..."></textarea>
+                    <button class="btn">Shuffle</button>
+                </div>
+                <div class="terminal">
+                    <div class="decor">
+                        <div class="dots">
+                            <div class="dot color-1"></div>
+                            <div class="dot color-2"></div>
+                            <div class="dot color-3"></div>
+                        </div>  
+                        <div class="lg">
+                            <h1>>_</h1>
+                        </div>
+                    </div>
+                    <div class="code">
+                        <p><span class="r-color">function</span> <span class="v-color">shuffle</span> (str){</p>
+                        <p>    <span class="margin-left-md"></span><span class="r-color">var</span> word <span class="b-color">= ''</span>;</p>
+                        <p>    <span class="margin-left-md"></span>str <span class="b-color">=</span> str.<span class="v-color">split</span>(<span class="b-color">''</span>);</p>
+                        <p>    <span class="margin-left-md"></span><span class="r-color">while</span> (str.<span class="b-color">length > 0</span>) {</p>
+                        <p>    <span class="margin-left-md"></span><span class="margin-left-md"></span>  word <span class="b-color">+=</span>  str.<span class="v-color">splice</span>(str.<span class="b-color">length *</span> <span class="o-color">Math</span>.<span class="v-color">random</span>() <span class="b-color"><< 0</span>, <span class="b-color">1</span>);</p>
+                        <p>    <span class="margin-left-md"></span>}</p>
+                        <p>    <span class="margin-left-md"></span><span class="r-color">return</span> word;</p>
+                        <p>}</p>
+                        <span class="margin-left-md"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right flex-center">
+            <div class="top">
+                <h2 class="help">Enter your text and click on Shuffle.</h2>
+            </div>
+            <div class="bottom">
+                <div class="output">
+                    <div class="title">output</div>
+                    <p class="shuffle-output"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shuffle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
