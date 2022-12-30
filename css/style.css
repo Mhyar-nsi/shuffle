@@ -173,21 +173,21 @@ textarea {
         margin-top: 100px;
     }
     .help {
-        width: 400px;
+        width: 340px;
         text-align: center;
     }
     .output {
-        width: 400px;
+        width: 340px;
     }
     .input {
         
-        width: 400px;
+        width: 340px;
     }
     .btn {
         margin-left: 10px;
     }
     .terminal{
-        width: 400px;
+        width: 340px;
     }
 }
 
