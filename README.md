@@ -1,6 +1,7 @@
 <div align="center">
 <h1> Shuffle JS</h1>
 <p>Random shuffle for javascript. This function may be used in projects, example : <a href="https://github.com/Mhyar-nsi/Password-Generator">Password Generator</a></p>
+<a href="https://mhyar-nsi.github.io/shuffle/"><img src="https://img.shields.io/badge/Try-Demo-%23161b22?style=for-the-badge&logo=javascript"></a>
 </div>
 <br>
 
